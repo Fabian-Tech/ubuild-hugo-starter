@@ -47,3 +47,7 @@ fields:
     - type: boolean
       name: open_in_new_tab
       label: open_in_new_tab
+- name: tesst
+  type: image_gallery
+  config: {}
+  label: tesst

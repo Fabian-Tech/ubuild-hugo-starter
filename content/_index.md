@@ -1,7 +1,7 @@
 ---
 layout: blocks
 title: Homepage
-date: 2017-11-22 23:00:00 +0000
+date: 2017-11-22T23:00:00.000+00:00
 page_sections:
 - template: navigation-header-w-button
   block: header-2
@@ -28,10 +28,13 @@ page_sections:
     enabled: true
     link_url: https://github.com/forestryio/ubuild-jekyll
     link_text: 'See on GitHub '
+    open_in_new_tab: false
   image:
     image: "/uploads/2018/06/21/product-shot-1.png"
     alt_text: Product Shot
   background_image: "/uploads/2018/06/21/hero-2-bg.png"
+  logo: ''
+  navigation: []
 - template: content-feature
   block: feature-1
   media_alignment: Left
@@ -42,6 +45,12 @@ page_sections:
   media:
     image: "/uploads/2018/06/21/blocks-split.png"
     alt_text: uBuild Blocks Mock-Up
+  logo: ''
+  navigation: []
+  cta:
+    link_url: ''
+    link_text: ''
+    open_in_new_tab: false
 - template: content-feature
   block: feature-1
   media_alignment: Right
@@ -52,16 +61,34 @@ page_sections:
   media:
     image: "/uploads/2018/06/21/edit.gif"
     alt_text: Customize Blocks
+  logo: ''
+  navigation: []
+  cta:
+    link_url: ''
+    link_text: ''
+    open_in_new_tab: false
 - template: 1-column-text
   block: one-column-1
   headline: 16 Fully Responsive Design Blocks
   content: "The Design Blocks can be used without Forestry but to harness the power
     of Blocks we recommend using Forestry. Once the site is imported you can immediately
     create new sites and make them fully customizable. \U0001F447"
+  logo: ''
+  navigation: []
+  cta:
+    link_url: ''
+    link_text: ''
+    open_in_new_tab: false
 - template: full-width-media-element
   block: media-1
   image: "/uploads/2018/06/21/theme.png"
   caption: All Available Blocks
+  logo: ''
+  navigation: []
+  cta:
+    link_url: ''
+    link_text: ''
+    open_in_new_tab: false
 - template: detail-content
   block: text-1
   headline: Steps to Build a Site!
@@ -73,8 +100,29 @@ page_sections:
     Page-Builder template.</p></li><li><p>Add and customize the available Blocks and
     preview them as you go along.</p></li><li><p>Read <a href="https://forestry.io/blog/ubuild-a-new-theme-for-static-sites-using-blocks.md">our
     article</a> and create your own Blocks.</p></li></ol>
+  logo: ''
+  navigation: []
+  cta:
+    link_url: ''
+    link_text: ''
+    open_in_new_tab: false
 - template: simple-footer
   block: footer-1
   content: Hello world!
+  logo: ''
+  navigation: []
+  cta:
+    link_url: ''
+    link_text: ''
+    open_in_new_tab: false
+tesst:
+- "/uploads/100722_rm_spacecamper_light_1670j.jpg"
+- "/uploads/100722_rm_nugget_edition_25_1722j.jpg"
+- "/uploads/100722_rm_ketterer_continental_1934j.jpg"
+- "/uploads/100722_c_tuareg_outdoortrailer_1803j.jpg"
+- "/uploads/100722_c_opera_1923j.jpg"
+- "/uploads/100722_c_holtkamper_kyte_1947j.jpg"
+- "/uploads/100722_c_brillant_1957j.jpg"
+- "/uploads/100720_caravansalon09_halle9.JPG"
 
 ---
